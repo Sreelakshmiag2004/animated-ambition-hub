@@ -43,8 +43,11 @@
 
     /* Custom Space Theme Variables */
     --cosmic-purple: 280 100% 70%;
+    --cosmic-purple-foreground: 240 100% 5%;
     --nebula-pink: 320 100% 75%;
+    --nebula-pink-foreground: 240 100% 5%;
     --stellar-blue: 200 100% 70%;
+    --stellar-blue-foreground: 240 100% 5%;
     --galaxy-cyan: 180 100% 65%;
     --space-orange: 30 100% 65%;
     --void-dark: 240 50% 3%;

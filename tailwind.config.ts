@@ -63,9 +63,18 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				// Space theme colors
-				cosmic: 'hsl(var(--cosmic-purple))',
-				nebula: 'hsl(var(--nebula-pink))',
-				stellar: 'hsl(var(--stellar-blue))',
+				cosmic: {
+					DEFAULT: 'hsl(var(--cosmic-purple))',
+					foreground: 'hsl(var(--cosmic-purple-foreground))'
+				},
+				nebula: {
+					DEFAULT: 'hsl(var(--nebula-pink))',
+					foreground: 'hsl(var(--nebula-pink-foreground))'
+				},
+				stellar: {
+					DEFAULT: 'hsl(var(--stellar-blue))',
+					foreground: 'hsl(var(--stellar-blue-foreground))'
+				},
 				galaxy: 'hsl(var(--galaxy-cyan))',
 				'space-orange': 'hsl(var(--space-orange))',
 				'void-dark': 'hsl(var(--void-dark))',
