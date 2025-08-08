@@ -61,7 +61,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Space theme colors
+				cosmic: 'hsl(var(--cosmic-purple))',
+				nebula: 'hsl(var(--nebula-pink))',
+				stellar: 'hsl(var(--stellar-blue))',
+				galaxy: 'hsl(var(--galaxy-cyan))',
+				'space-orange': 'hsl(var(--space-orange))',
+				'void-dark': 'hsl(var(--void-dark))',
+				'star-light': 'hsl(var(--star-light))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
